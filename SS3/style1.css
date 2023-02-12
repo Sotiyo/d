@@ -1,0 +1,36 @@
+button {
+    height: 90px;
+    font-size: 50px;
+    background-color: green;
+    border-style: double;
+    color: black;
+    width: 1290px;
+}
+body {
+    background: -webkit-linear-gradient(to right, #06283D, #256D85, #47B5FF);
+    background: linear-gradient(to right, #06283D, #256D85, #47B5FF);
+}
+a {
+    color: red;
+    
+}
+h1 {
+    color: goldenrod;
+    background-color: black;
+    text-align: center;
+}
+a:hover {
+    color: green;
+    transition: ease-in-out;
+}
+button:hover {
+    background-color: red;
+    color: green;
+    transition: ease-in-out;
+}
+.light:hover {
+    color: green;
+}
+.light {
+    max-width: 3000px;
+}
